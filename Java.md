@@ -64,9 +64,62 @@
     - 배열은 최초 메모리 할당 이후 변경할수 없다.
     - `nums[1] = 100;` 를 사용한다면 개별 요소의 다른 값으로 변경만 한것
     - `new` 등을 사용해서 사이즈를 재조절 한다고 해도 새로운 배열이 만들어지는 것이다.
+    - 잘못된 인덱스의 접근시에 *ArrayIndexOutOfBoundExceptions*  예외를 발생
 
----
+## 생성자
 
+- 객체 생성 전에 처리해야할 함수
+- 멤버 변수 초기화를 진행
+
+### 추상 클래스
+
+- 자식클래스에서 반드시 재정의 되기 때문에 조상의 구현이 무의미한 메서드
+- 구현의 강제성을 통해 프로그램의 안정성 향상
+
+### 인터페이스
+
+- 최고 수준의 추상화 단계
+- 다중 상속이 가능
+- 손쉬운 모듈 교체 지원
+- *default* 메서드는 인터페이스에 구현된 일반 메서드이다.
+    - 접근 제한자는 public으로 한정됨
+    - 자식 클래스에서 구현할 필요는 없다.
+- *static* 메서드는 미리 만들어놔서 사용이 가능하다.
+- 인터페이스를 사용한다면 독립적인 협업에 있어서 개발기간 단축 가능
+    - 하나의 인터페이스를 두고 양 팀이 인터페이스를 기반으로 로직 / UI 개발 가능
+    - Interface + stub + Impl…
+
+## Collections
+
+### List
+
+- 순서가 있는 데이터의 집합
+- 중복을 허용
+- ArrayList, LinkedList 등의 구현체가 있다.
+
+### Set
+
+- 순서가 없고 중복을 허용하지 않는 데이터 집합
+- HashSet, TreeSet, LinkedHashSet 등의 구현체가 있다.
+
+### Map
+
+- Key-Value 쌍으로 데이터를 저장하는 데이터 집합
+- key는 unique해야한다. → **Set** 으로 저장
+- HashMap, TreeMap, LinkedHashMap 등의 구현체가 있다.
+
+### Queue
+
+- FIFO(First-In, First-Out) 원칙에 따라 요소를 처리하는 데이터 집합
+- LinkedList, PriorityQueue 등의 구현체가 있다.
+
+## Generic
+
+- 객체 생성시에 타입을 결정하는 타입
+    - <T> : Type Object
+    - <E> : Element Object
+    - <K> : Key Object
+    - <V> : Value Object
 ### 과제
 
 **데일리 실습** : 2008. 빌딩 건설 (LV3)
