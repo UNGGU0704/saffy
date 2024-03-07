@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+
+        div.box1 {
+            color : red;
+
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 예제</title>
+    <!--외부 css link-->
+    <link rel = "stylesheet" href = "commons.css">
+</head>
+<body>
+    <div>css 우선 순위</div>
+    <div id="contaier">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing.
+            <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, qui.</div>
+        </div>
+    </div>
+
+    <form action = '#'>
+        <div>
+            <input type= "submit" value='로그인' class='normal color1'>
+            <input type='reset' value='비민번호' class = 'noraml color2'>
+        </div>
+    </form>
+</body>
+</html>
