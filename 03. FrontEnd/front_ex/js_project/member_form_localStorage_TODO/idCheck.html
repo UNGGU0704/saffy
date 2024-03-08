@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ID중복확인</title>
+    <!-- 외부 css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- 외부 js : head 선언 : Event Listener 처리 시에는 body가 모두 로드 된 이후에 로드되어야 함-->
+    <!-- <script type="text/javascript" src="./js/idCheck.js"></script> -->
+  </head>
+
+  <body>
+    <div class="content-form">
+      <form name="idCheckForm" id="idCheckForm" method="post">
+        <table class="normal">
+          <caption>
+            ID 중복체크
+          </caption>
+          <tr>
+            <td>
+              <input
+                type="text"
+                name="memberIdCheck"
+                id="memberIdCheck"
+                autofocus
+                placeholder="아이디 입력하세요"
+              />
+            </td>
+            <td>
+              <!-- 
+                Inline Event Handler : onClick="idCheckClick()" 
+                Event Listener 변경: idCheck.js
+              -->
+              <input
+                type="button"
+                value="ID 중복확인"
+                class="normal color2"
+                id="memberIdCheckButton"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <span id="resultMessage">아이디 검증 결과 메세지 출력영역</span
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center">
+              <!-- 
+                Inline Event Handler : onclick="idCommit()" 
+                Event Listener 변경: idCheck.js
+              -->
+              <input
+                type="button"
+                value="ID 사용하기"
+                id="idCommitButton"
+                class="normal"
+                disabled="disabled"
+              />
+              <input type="button" value="취소" class="normal" id="resetButton" />
+              <input type="button" value="닫기" onclick="window.close()" class="normal" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+
+    <!-- 
+      외부 js : 
+      - 종료  body 태그 앞에 위치 : Event Listener 처리 시 위치 
+    -->
+    <script type="text/javascript" src="./js/idCheck.js"></script>
+  </body>
+</html>

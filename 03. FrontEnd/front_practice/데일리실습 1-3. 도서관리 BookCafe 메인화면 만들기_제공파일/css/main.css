@@ -5,7 +5,7 @@
     box-sizing: border-box;
     list-style: none;
   }
-/* 전체 페이지 스타일 */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
 }
 
-/* Header */
+
 header {
     height: 70px;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
@@ -63,7 +63,6 @@ header > nav {
     margin-right: 10px;
 }
 
-/* 중앙 Content 영역 */
 .content {
     margin: 10px auto;
     max-width: 1200px;
@@ -115,7 +114,6 @@ header > nav {
     font-weight: bold;
 }
 
-/* 설문조사 영역 */
 .vote {
     margin: 10px;
     border: 2px solid rgba(0, 0, 0, 0.3);
@@ -183,7 +181,6 @@ header > nav {
     min-height: 500px;
 }
 
-/* 이미지 게시판 영역 */
 .menu {
     padding: 10px 20px;
 }
@@ -221,7 +218,6 @@ header > nav {
     margin-top: 10%;
 }
 
-/* 텍스트 게시판 영역 */
 .article {
     padding: 10px 20px;
 }
@@ -286,7 +282,7 @@ th.table {
     width: 75%;
 }
 
-/* Footer */
+
 footer {
     clear: both;
     margin: 10px auto;

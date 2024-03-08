@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 외부 css  */
+      @import url("./css/main.css");
+      /* 전역 변수 선언 */
+      :root {
+        --color1: #1bb1e7;
+      }
+      /* 내부 css  */
+      #memberIdSave {
+        margin-top: 15px;
+        margin-left: 20px;
+      }
+      th, td {
+        border: none;
+        padding: 5px;
+      }
+      table.normal > caption {
+        margin-top: 30px;
+        border-top: 1px dotted var(--color1);
+        border-bottom: 1px dotted var(--color1);
+        padding: 5px 0;
+      }
+      tr:last-child {
+        border-bottom: 1px dotted var(--color1);
+      }
+    </style>
+    <!-- 내부 js -->
+    <script type="text/javascript">
+      /* enter key event  */
+      function enterKey(e) {
+        console.log(e);
+        if (e.keyCode == 13) { // window.event.keyCode
+          document.getElementById("loginForm").submit();
+        }
+      }
+  </script>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header">
+      <div class="nav">
+        <a href="index.html" id="logo">Member Home</a>
+        <ul class="menu">
+          <li><a href="login.html" class="menu-item">로그인</a></li>
+          <li><a href="signup.html" class="menu-item">회원가입</a></li>
+          <li><a href="#" class="menu-item">아이디/비밀번호 찾기</a></li>
+          <li><a href="#" class="menu-item">공지사항</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="content">
+      <div class="content-section">
+        <div class="content-section-article">
+          <!-- form -->
+          <div class="content-form">
+            <form action="index.html" id="loginForm" name="loginForm">
+              <table class="normal">
+                <caption>
+                  로그인
+                </caption>
+                <tr>
+                  <th>아 이 디</th>
+                  <td><input type="text" name="memberId" id="memberId" autofocus required tabindex="1"/></td>
+                  <td rowspan="2"><input type="submit" value="로그인" id="btn-login" class='color1 btn-square' required tabindex="3"/></td>
+                </tr>
+                <tr>
+                  <th>비밀번호</th>
+                  <td>
+                    <input type="password" name="memberPw" id="memberPw" tabindex="2"
+                      onkeyup="enterKey(event)" />
+                  </td>
+                </tr>
+              </table>
+              <div>
+                <label for="memberIdSave"><input type="checkbox" name="memberIdSave" id="memberIdSave" /> 아이디 저장</label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- footer -->
+  <div class="footer">
+    <ul>
+      <li>사이트소개</li>
+      <li>개인정보처리방침</li>
+      <li>이용약관</li>
+      <li>오시는길</li>
+    </ul>
+  </div>
+</html>

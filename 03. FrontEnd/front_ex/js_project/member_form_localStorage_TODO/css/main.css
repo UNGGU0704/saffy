@@ -1,0 +1,240 @@
+/* css 전역 변수 선언하기 : 사용 var(--color1) */
+:root {
+  --color0: #fff;
+  --color1: #1bb1e7;
+  --color2: #CD212A; /* Flame Scarlett */
+  --color3: #0072B5; /* French Blue */
+  --color4: #00A170; /* Mint */
+  --color5: #F5DF4D; /* Illuminating */
+  --color-readonly: #E0FFFF; /* LightCyan */
+  --color-txt1: #9BB7D4; /* Cerulean */
+  --color-txt2: #282D3C; /* Navy Blazer */
+  --color-txt3: #DC143C; /* Crimson */
+  --font-size-normal: 9px;
+  --font-size-title: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* 링크 태그 */
+a {
+  text-decoration: none;
+  color: var(--color-txt2);
+  font-size: 12px;
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(color-txt2);
+}
+
+/* 상단 header */
+.header {
+  height: 70px;
+  /* box-shadow: x-position y-position blur(그림자를 흐릿하게) spread(그림자 확장(양수), 축소) color */
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.header>.nav {
+  position: relative;
+  margin: auto;
+  max-width: 1200px;
+  /* calc() 함수는 괄호 안의 식을 계산한 결과를 속성값으로 사용 */
+  width: calc(100% - 120px);
+  height: 70px;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--color1);
+  cursor: pointer;
+}
+
+.nav>a {
+  float: left;
+  margin-left: 20px;
+  line-height: 70px;
+  height: 70px;
+}
+
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.menu>li {
+  float: left;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.menu>li:last-child {
+  margin-right: 10px;
+}
+
+.menu-item {
+  color: var(--color-txt1);
+}
+
+.menu-item:hover {
+  color: var(--color1)
+}
+
+.content {
+  margin: 10px auto;
+  max-width: 1200px;
+}
+
+/* 중앙 content :  */
+.content-section-article {
+  margin: 10px;
+  padding: 5px;
+  max-width: 1200px;
+  min-height: 200px;
+  /* height: 300px; */
+  border: 1px solid darkgray; 
+}
+
+.content-section>div:first-child {
+  margin-top: 20px;
+}
+
+/* form 가운데 정렬 */
+.content-form {
+    display: block;
+    text-align: center;
+}
+/* form 가운데 정렬 */
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* 버튼 가운데 정렬 */
+form>div.btn {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 버튼 기본 크기 */
+input[type="submit"].normal, input[type="reset"].normal, input[type="button"].normal {
+  width: 100px;
+  height: 30px;
+}
+
+/* 버튼 배경 색상1 */
+input[type="submit"].color1, input[type="reset"].color1, input[type="button"].color1 {
+  background-color: var(--color1);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+/* 버튼 배경 색상2: css 전역변수 사용하기 */
+input[type="submit"].color2,
+input[type="reset"].color2,
+input[type="button"].color2 {
+  background-color: var(--color2);
+  color: var(--color0);
+  font-weight: bold;
+  border: none;
+}
+
+/* 버튼 라운드 설정 */
+input[type="submit"].round, input[type="reset"].round, input[type="button"].round {
+  border-radius: 15px;
+  margin: 5px 0;
+  height: 20px;
+}
+
+/* 로그인 버튼  */
+#btn-login {
+  width: 80px;
+  height: 70px;
+}
+
+/* input 크기 : small : 전화번호  */
+input.small {
+  width: 50px;
+}
+
+/* 읽기 전용 */
+input[readonly] {
+  background-color: var(--color-readonly);
+}
+
+/* focus */
+input:focus {
+  outline: none;
+  border-color: var(--color1);
+  border-width: 3px;
+  /* background-color: var(--color-txt1); */
+  color: var(--color-txt2);
+}
+
+/*-- 하단 footer --*/
+.footer {
+  clear: both;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 1200px;
+  height: 40px;
+}
+
+.footer>ul {
+  text-align: center;
+}
+
+.footer>ul>li {
+  display: inline-block;
+  margin-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  color: var(--color-txt1)
+}
+
+/* 테이블: normal */
+table.normal {
+  /* border: 1px solid gray; */
+  border: none;
+  /* tr 여백주기: 좌우 상하 */
+  /* border-spacing: 20px 5px; */
+  /* 2줄 경계선(이중선) 없애기 */
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid var(--color-txt1);
+  padding: 5px;
+  /* 빈셀에 테두리 그리지 않기 */
+  /* empty-cells: hide; */
+}
+table.normal > caption {
+  letter-spacing: 10px;
+  font-weight: bold;
+  font-size: var(--font-size-title);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* img */
+img[src^="./img/flower"] {
+  width: 150px;
+  height: 125px;
+}
+div.img-left {
+  float: left;
+  padding: 5px;
+}
+div.img-right {
+  float: right;
+  padding: 5px;
+}
