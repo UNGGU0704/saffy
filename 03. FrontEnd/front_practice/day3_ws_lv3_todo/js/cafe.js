@@ -37,23 +37,18 @@ function logout() {
 }
 
 function allslide(onoff) {
-    if (onoff == "on") {
-        let subs = document.getElementById("store_item_sub");
+    let subs = document.querySelectorAll(".store_item_sub ul");
+    if (onoff === "on") {
         for (let i = 0; i < subs.length; i++) {
             subs[i].style.display = "block";
         }
-
-        document.getElementById("store_item_sub")[0].style.display = "block";
-        document.getElementById("store_display_off")[0].style.display = "none";
-
+        document.querySelector(".store_display_on").style.display = "none";
+        document.querySelector(".store_display_off").style.display = "block";
     } else {
-        let subs = document.getElementById("store_item_sub");
         for (let i = 0; i < subs.length; i++) {
             subs[i].style.display = "none";
         }
-
-        document.getElementById("store_item_sub")[0].style.display = "none";
-        document.getElementById("store_display_off")[0].style.display = "block";
-
+        document.querySelector(".store_display_on").style.display = "block";
+        document.querySelector(".store_display_off").style.display = "none";
     }
 }
