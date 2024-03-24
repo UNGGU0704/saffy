@@ -6,42 +6,13 @@
 <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=JSON&logoColor=white"/>
 
 ## 학습 목표
-- [ ] HTML, CSS, JavaScript의 사용법을 이해한다.
-- [ ] Bootstrap 라이브러리를 사용법을 익힌다.
-- [ ] AJAX의 학습과 이를 이용한 프로젝트를 진행한다.
+- [x] HTML, CSS, JavaScript의 사용법을 이해한다.
+- [x] Bootstrap 라이브러리를 사용법을 익힌다.
+- [x] AJAX의 학습과 이를 이용한 프로젝트를 진행한다.
 
+## 학습 내용
 
-## 📅 수업 일정
-
-> 1️⃣ 0305 HTML5
-+ web architecture
-+ html tag
-+ sementic
-
-> 2️⃣ 0306 CSS3
-+ css 기본구조
-+ Selector
-+ Box Model
-+ Positioning
-+ Flex Box
-
-> 3️⃣ 0307 JavaScript 기본
-+ JavaScript 기본 문법
-+ function
-+ window 객체
-
-> 4️⃣ 0308 JavaScript 심화
-+ JavaScript Event
-+ JSON
-+ WebStorage
-
-> 5️⃣ 0311 Bootstrap5
-+ Grid
-+ Component
-
-> 6️⃣ 0312 비동기통신 (AJAX)
-+ XMLHttpRequest
-+ fetch()
-
-> 7️⃣ 0315 FrontEnd 관통 프로젝트
-+ Map API
+### [HTML](https://github.com/unggu0704/saffy/blob/main/03.%20FrontEnd/HTML.md)
+### [CSS](https://github.com/unggu0704/saffy/blob/main/03.%20FrontEnd/CSS.md)
+### [JavaScript](https://github.com/unggu0704/saffy/blob/main/03.%20FrontEnd/JavaScript.md)
+### [AJAX](https://github.com/unggu0704/saffy/blob/main/03.%20FrontEnd/AJAX.md)
