@@ -11,7 +11,7 @@
 - SQL문을 실행 할 수 있는 호출 인터페이스
 - 자바가 DBMS에도 독립적으로 만들어주는 기능
 
-![Untitled](JDBC%200dc9b68a45554b8491fa802250a8274c/Untitled.png)
+![Untitled](resources/JDBC%200dc9b68a45554b8491fa802250a8274c/Untitled.png)
 
 ### API
 
