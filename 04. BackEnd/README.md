@@ -1,4 +1,4 @@
-# 🌈 SSAFY 11th BackEnd Live
+# 🌈 코딩 과정(3월) - BackEnd(Servlet/JSP)
 
 <img src="https://img.shields.io/badge/Servlet-E34F26?style=flat&logo=Servlet&logoColor=white"/> <img src="https://img.shields.io/badge/JSP-1572B6?style=flat&logo=JSP&logoColor=white"/>
 
