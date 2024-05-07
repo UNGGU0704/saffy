@@ -14,6 +14,6 @@ SSAFY에서 공부하기
 
 ### [05. DataBase](https://github.com/unggu0704/saffy/tree/main/05.%20DataBase)
 
-### [06. Spring](https://github.com/unggu0704/saffy/tree/main/06.%20FrameWork)
+### [06. Spring](https://github.com/unggu0704/saffy/tree/main/06.%20Spring)
 
 ### [07. Vue.js](https://github.com/unggu0704/saffy/tree/main/07.%20Vue.js)

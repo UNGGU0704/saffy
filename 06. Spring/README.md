@@ -12,16 +12,16 @@
 
 ## 수업 내용
 
-### [Spring이란](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/Spring%EC%9D%B4%EB%9E%80.md)
+### [Spring이란](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/Spring%EC%9D%B4%EB%9E%80.md)
 
-### [IOC & Container](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/IoC%20%26%20Container.md)
+### [IOC & Container](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/IoC%20%26%20Container.md)
 
-### [AOP](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/AOP.md)
+### [AOP](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/AOP.md)
 
-### [Interceptors](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/File%20Upload%20%26%20Interceptors.md)
+### [Interceptors](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/File%20Upload%20%26%20Interceptors.md)
 
-### [Spring MVC](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/Spring%20MVC.md)
+### [Spring MVC](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/Spring%20MVC.md)
 
-### [MyBatis](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/MyBatis.md)
+### [MyBatis](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/MyBatis.md)
 
-### [REST](https://github.com/unggu0704/saffy/blob/main/06.%20FrameWork/Rest%20API.md)
+### [REST](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/Rest%20API.md)

@@ -1,7 +1,6 @@
 # 🌈 코딩 과정(5월) - Vue.js
 
-<img src="https://img.shields.io/badge/Vue.js-099268?style=flat&logo=Vue.js&logoColor=white"/>
-<img src="https://img.shields.io/badge/vite-228be6?style=flat&logo=vite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vue.js-099268?style=flat&logo=Vue.js&logoColor=white"/> <img src="https://img.shields.io/badge/vite-228be6?style=flat&logo=vite&logoColor=white"/>
 
 ## 수업 목적
 
