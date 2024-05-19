@@ -4,7 +4,11 @@
 
 ## 수업 목적
 
-- [ ] Vue.js 사용법 학습
+- [x] Vue.js의 문법 및 동작 흐름 이해 
+- [x] npm과 Node.js 학습
+- [x] View와 Component의 Flow 이해
+- [x] Router를 통한 화면 전환
+- [x] Axios를 통한 BackEnd와의 비동기 통신 실습
 
 ## 수업 내용
 
