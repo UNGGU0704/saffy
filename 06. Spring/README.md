@@ -9,6 +9,7 @@
 - [x] JDBC의 MyBatis 대체
 - [x] REST API 학습
 - [x] Spring boot 전환
+- [x] JWT 실습 
 
 ## 수업 내용
 
@@ -25,3 +26,5 @@
 ### [MyBatis](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/MyBatis.md)
 
 ### [REST](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/Rest%20API.md)
+
+### [JWT](https://github.com/unggu0704/saffy/blob/main/06.%20Spring/JWT.md)
