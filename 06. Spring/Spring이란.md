@@ -41,5 +41,3 @@
 ## Spring 프레임 워크 모듈
 
 ![Untitled](resources/springimg/Untitled.png)
-
-알맞은 기술과 구조로 소프트웨어를 설계하고,소프트웨어 기술의 좋고 나쁜점을 분석 비평하고, 그것을 통해 코드를 짧고 읽기 좋게 적는 것을 목표로 합니다.
